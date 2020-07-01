@@ -1,0 +1,21 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+.footer__inner {
+    max-width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.footer__info {
+}
+.footer__link {
+    color: $primary-text-color;
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+.footer__copy {
+}

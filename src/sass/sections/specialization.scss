@@ -1,0 +1,46 @@
+.specialization {
+    position: relative;
+    padding-bottom: 150px;
+    &::after {
+        content: "";
+        background-image: url(../images/specialization-decor1.png);
+        background-repeat: no-repeat;
+        background-repeat:  right center;
+        width: 511px;
+        height: 425px;
+        position: absolute;
+        top: 56px;
+    }
+}
+.specialization__inner{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.specialization__title {
+    margin-top: 56px;
+    text-align: center;
+}
+.specialization__items {
+    padding-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialization__item {
+    text-align: center;
+    &:not(:last-child) {
+        margin-right: 70px;
+    }
+}
+.specialization__item-img {
+    margin-bottom: 23px;
+}
+.specialization__item-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.specialization__item-descritpion { 
+    color: #272727;
+    opacity: .7;
+}

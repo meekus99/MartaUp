@@ -1,0 +1,115 @@
+.header {   
+    background: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 789px;
+    color: $white-color;
+}
+.header__inner {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 38px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+.logo__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo__text {
+    margin-left: 12px;
+    font-size: 20px;
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+
+}
+.menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+.menu__link {
+    color: $white-color;
+    opacity: .5;
+    &--active {
+        opacity: 1;
+    }
+}
+.user-account {
+}
+.user-account__btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.user-account__login {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: $white-color;
+    margin-right: 43px;
+}
+.user-account__signup {
+    color: #250F8A;
+    padding: 8px 43px;
+    border-radius: 20px;
+}
+.header__content {
+    padding-top: 141px;
+    font-weight: 400;
+}
+.header__text {
+    display: inline-block;
+    max-width: 506px;
+    vertical-align: top;
+    margin-right: 66px;
+}
+.header__title {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.header__description {
+    font-size: 24px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+.header__button {
+    background-color: #FFCA00;
+    color: #250F8A;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 39px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.header__img {
+    margin-top: 22px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    padding-right: 66px;
+    &::after {
+        content: "";
+        background-image: url(../images/header-decor1.svg);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 75px;
+        position: absolute;
+        top: 78px;
+        right: 0;
+    }
+}
